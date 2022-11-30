@@ -43,7 +43,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080"
-        image: tapacr.azurecr.io/asudarsanan-test-3-mc-1/apps-23-11-2022-09-33-07-632602042/hungryman-crawler-my-apps@sha256:89aa1a7f37a88c5e31cbe327f1bce035b507fdf5842bbeae4c1856135e6b412b
+        image: tapacr.azurecr.io/asudarsanan-test-3-mc-1/apps-23-11-2022-09-33-07-632602042/hungryman-crawler-my-apps@sha256:be55fdcc7d9fb8c4f3ec305c02d1b53b3fd1f0f22d162d46ce19c950fb139b26
         name: workload
         ports:
         - containerPort: 8080
