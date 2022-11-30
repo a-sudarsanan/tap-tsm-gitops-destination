@@ -63,7 +63,7 @@ spec:
           value: crawler
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080"
-        image: tapacr.azurecr.io/asudarsanan-test-3-mc-1/apps-23-11-2022-09-33-07-632602042/hungryman-search-proc-my-apps@sha256:4077ff6f53498e567d9a380d5f0ca778785a4d93c265538265015ff5b771346c
+        image: tapacr.azurecr.io/asudarsanan-test-3-mc-1/apps-23-11-2022-09-33-07-632602042/hungryman-search-proc-my-apps@sha256:41666bc14dfa0a9702781273bebfb2ddc1333e75e6d05b72333f4036fa103b71
         livenessProbe:
           httpGet:
             path: /livez
