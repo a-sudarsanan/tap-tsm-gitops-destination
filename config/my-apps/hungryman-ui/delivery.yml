@@ -34,7 +34,7 @@ spec:
         networking.knative.dev/visibility: cluster-local
     spec:
       containers:
-      - image: tapacr.azurecr.io/asudarsanan-test-3-mc-1/apps-23-11-2022-09-33-07-632602042/hungryman-ui-my-apps@sha256:b616749a1b95c18498b7ee865bc1b33f65a29d6e5ea5f2a7721f7a8d53b999e4
+      - image: tapacr.azurecr.io/asudarsanan-test-3-mc-1/apps-23-11-2022-09-33-07-632602042/hungryman-ui-my-apps@sha256:1c4e86c52cfd1d351b518c62b6af9ad4af07ab541b06a71c7ef5d4589484d0cf
         name: workload
         resources: {}
         securityContext:
